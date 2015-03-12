@@ -38,7 +38,7 @@
 			<div class="slides">
 				<section>
 					<h1>Git Tutorial</h1>
-					<h3>Knowledge Transfer Edition</h3>
+					<h3>Knowledge Transfer</h3>
 					<p>
 						<small>by <a href="">Corsino,Gladys Charmae</a> / <a href="">gladys.c.t.corsino@accenture.com</a></small>
 					</p>
@@ -55,15 +55,22 @@
 					</aside> -->
 				</section>
 
+
+
 				<section>
 					<h2 class="fragment" >What are the differences between SVN and Git?</h2>
 
-						<ul>
+						<ul style="list-style-type: none;">
 							<li class="fragment"><code>Directory structure</code></li>
-							<li class="fragment"><em>Including subprojects</em></li>
-							<li class="fragment"><strong>Preserving history</strong></li>
+							<li class="fragment"><code>Including subprojects</code></li>
+							<li class="fragment"><code>Preserving history</code></li>
 						</ul>
 	
+				</section>
+
+				<section>
+					<h3>SVN vs. Git development structure</h3>
+					<img width="600" height="600" src="images/svnvsgit.png" >
 				</section>
 
 				<section>
@@ -94,10 +101,7 @@
 					
 				</section>
 
-				<section>
-					<h3>SVN vs. Git development structure</h3>
-					<img width="600" height="600" src="images/svnvsgit.png" >
-				</section>
+				
 				<section>
 					<h3>Git WorkFlow</h3>
 					<img width="600" height="600" src="images/workflow.png" >
@@ -105,9 +109,9 @@
 					
 				<section>
 				<h3>Dev Git Process (optional)</h3>
-				        <ol>
+				        <ol type="1" style="font-size: 30px;">
 						    <li>Setup
-						        <ol type="a">
+						        <ul id="gwapa" type="I">
 						            <li>Fork repository</li>
 						            <li>Clone the forked repository </br><code>git clone [remote-URL]</code>
 						            </li>
@@ -117,9 +121,9 @@
 						            </li>
 						            <li>Fetch remote repositories</br><code>git fetch [remote-name]</code>
 						            </li>
-						        </ol>
+						        </ul>
 						    </li>
-						    <li>Create and Checkout feature branch</br><code>git checkout -b branch-feature-name remotename/branchname </code>
+						    <li>Create and Checkout feature branch</br><code>git checkout -b featurename remotename/branchname </code>
 						    </li>
 						    <li>Make changes to local repository</li>
 						</ol>
@@ -137,18 +141,18 @@
 				                </li>
 				                <li>Pull latest updates from main remote repository.
 				                    </br><code>git pull --rebase [remote-name] [branch-name]</code>
-				                    <li>Push changes to forked remote repository.
+				                    <li>Push commits to forked remote repository.
 				                        </br><code>git push [remote-name] [branch-name]</code>
 				                    </li>
 				            </ol></br>
-				            <li>Merge Commits and merge feature-branch to dev/master</li>
+				            <li>Merge multiple commits and merge feature-branch to dev/master</li>
 				            <li>Make Pull Request</li>
 				        </ol>
 				</section>
 
 				<section>
 					<p>For Gate Keeper Git Process:</br>
-					  Pls refer to <a href="GateKeeper.md">G</a>.</p>
+					  Click <a href="https://raw.githubusercontent.com/charmae/reveal.js/master/GateKeeper.md">here</a>.</p>
 				</section>
 
 				<section>
